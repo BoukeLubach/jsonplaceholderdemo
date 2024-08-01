@@ -1,26 +1,111 @@
 {
-    "fs": [
+    "factsheets": [
         {
             "id": 1,
-            "title": "fstitle",
-            "description": "fsdescription"
+            "name": "Project A",
+            "currentSituation": "In Progress",
+            "roomForImprovement": "Optimization needed",
+            "measure": "Increase team size",
+            "risks": "Budget overrun",
+            "remarks": "High priority",
+            "investment": 15000.0,
+            "complexity": "High",
+            "projectDependency": true,
+            "projectDependencyComment": "Depends on Project X",
+            "influenceOnProduction": false,
+            "companyName": "Company Alpha"
         },
         {
             "id": 2,
-            "title": "fstitle2",
-            "description": "fsdescription2"
+            "name": "Project B",
+            "currentSituation": "Completed",
+            "roomForImprovement": "Minimal",
+            "measure": "Conduct review",
+            "risks": "None",
+            "remarks": "Delivered on time",
+            "investment": 8000.0,
+            "complexity": "Medium",
+            "projectDependency": false,
+            "projectDependencyComment": "",
+            "influenceOnProduction": true,
+            "companyName": "Company Beta"
+        },
+        {
+            "id": 3,
+            "name": "Project C",
+            "currentSituation": "Not Started",
+            "roomForImprovement": "Planning phase",
+            "measure": "Finalize requirements",
+            "risks": "Scope creep",
+            "remarks": "Initial phase",
+            "investment": 20000.0,
+            "complexity": "High",
+            "projectDependency": true,
+            "projectDependencyComment": "Dependent on hardware delivery",
+            "influenceOnProduction": false,
+            "companyName": "Company Gamma"
+        },
+        {
+            "id": 4,
+            "name": "Project D",
+            "currentSituation": "Delayed",
+            "roomForImprovement": "Resource allocation",
+            "measure": "Hire temporary staff",
+            "risks": "Timeline slip",
+            "remarks": "Needs attention",
+            "investment": 12000.0,
+            "complexity": "Low",
+            "projectDependency": false,
+            "projectDependencyComment": "",
+            "influenceOnProduction": true,
+            "companyName": "Company Delta"
+        },
+        {
+            "id": 5,
+            "name": "Project E",
+            "currentSituation": "Cancelled",
+            "roomForImprovement": "Re-evaluate feasibility",
+            "measure": "Conduct feasibility study",
+            "risks": "Financial loss",
+            "remarks": "Reconsider next quarter",
+            "investment": 5000.0,
+            "complexity": "Medium",
+            "projectDependency": false,
+            "projectDependencyComment": "",
+            "influenceOnProduction": false,
+            "companyName": "Company Epsilon"
         }
     ],
     "projects": [
         {
-            "id": 1,
-            "title": "projecttitle",
-            "description": "Pdescription"
+            "name": "Company Alpha",
+            "description": "A leading technology company in the Netherlands",
+            "latitude": 52.3676,
+            "longitude": 4.9041
         },
         {
-            "id": 2,
-            "title": "projecttitl2",
-            "description": "Pdescription"
+            "name": "Company Beta",
+            "description": "An innovative startup based in Amsterdam",
+            "latitude": 52.3791,
+            "longitude": 4.8994
+        },
+        {
+            "name": "Company Gamma",
+            "description": "A well-established manufacturing company",
+            "latitude": 51.9225,
+            "longitude": 4.47917
+        },
+        {
+            "name": "Company Delta",
+            "description": "A major player in the Dutch energy sector",
+            "latitude": 51.4416,
+            "longitude": 5.4697
+        },
+        {
+            "name": "Company Epsilon",
+            "description": "A growing software development firm",
+            "latitude": 53.2194,
+            "longitude": 6.5665
         }
     ]
 }

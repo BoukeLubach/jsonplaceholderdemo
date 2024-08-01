@@ -1,16 +1,5 @@
 {
-    "fs": [
-        {
-            "id": 1,
-            "title": "fstitle",
-            "description": "fsdescription"
-        },
-        {
-            "id": 2,
-            "title": "fstitle2",
-            "description": "fsdescription2"
-        }
-    ], 
+
 
     "projects": [
         {

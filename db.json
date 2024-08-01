@@ -78,24 +78,28 @@
     ],
     "companies": [
         {
+            "id": 1,
             "name": "Company Alpha",
             "description": "A leading technology company in the Netherlands",
             "latitude": 52.3676,
             "longitude": 4.9041
         },
         {
+            "id": 2,
             "name": "Company Beta",
             "description": "An innovative startup based in Amsterdam",
             "latitude": 52.3791,
             "longitude": 4.8994
         },
         {
+            "id": 3,
             "name": "Company Gamma",
             "description": "A well-established manufacturing company",
             "latitude": 51.9225,
             "longitude": 4.47917
         },
         {
+            "id": 4,
             "name": "Company Delta",
             "description": "A major player in the Dutch energy sector",
             "latitude": 51.4416,

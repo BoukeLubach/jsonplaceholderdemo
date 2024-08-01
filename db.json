@@ -3,17 +3,18 @@
         {
             "id": 1,
             "name": "Project A",
-            "currentSituation": "In Progress",
-            "roomForImprovement": "Optimization needed",
-            "measure": "Increase team size",
-            "risks": "Budget overrun",
+            "currentSituation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "roomForImprovement": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "measure": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "risks": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "remarks": "High priority",
             "investment": 15000.0,
             "complexity": "High",
             "projectDependency": true,
             "projectDependencyComment": "Depends on Project X",
             "influenceOnProduction": false,
-            "companyName": "Company Alpha"
+            "companyName": "Company Alpha",
+            "totalSavings": 10000.0
         },
         {
             "id": 2,
@@ -28,7 +29,8 @@
             "projectDependency": false,
             "projectDependencyComment": "",
             "influenceOnProduction": true,
-            "companyName": "Company Beta"
+            "companyName": "Company Beta",
+            "totalSavings": 5000.0
         },
         {
             "id": 3,
@@ -43,7 +45,8 @@
             "projectDependency": true,
             "projectDependencyComment": "Dependent on hardware delivery",
             "influenceOnProduction": false,
-            "companyName": "Company Gamma"
+            "companyName": "Company Gamma",
+            "totalSavings": 15000.0
         },
         {
             "id": 4,
@@ -58,7 +61,8 @@
             "projectDependency": false,
             "projectDependencyComment": "",
             "influenceOnProduction": true,
-            "companyName": "Company Delta"
+            "companyName": "Company Delta",
+            "totalSavings": 8000.0
         },
         {
             "id": 5,
@@ -73,7 +77,8 @@
             "projectDependency": false,
             "projectDependencyComment": "",
             "influenceOnProduction": false,
-            "companyName": "Company Epsilon"
+            "companyName": "Company Epsilon",
+            "totalSavings": 3000.0
         }
     ],
     "companies": [
@@ -104,12 +109,272 @@
             "description": "A major player in the Dutch energy sector",
             "latitude": 51.4416,
             "longitude": 5.4697
+        }
+    ],
+    "utilityUsage": [
+        {
+            "companyId": 1,
+            "companyName": "Company Alpha",
+            "data": [
+                {
+                    "year": 2021,
+                    "utilityId": 1,
+                    "utilityName": "Natural Gas",
+                    "total": 75572.0,
+                    "priceAvg": 50.35751402635896,
+                    "priceMin": 42.75,
+                    "priceMax": 57.5,
+                    "totalCost": 3805618.05
+                },
+                {
+                    "year": 2022,
+                    "utilityId": 1,
+                    "utilityName": "Natural Gas",
+                    "total": 83095.0,
+                    "priceAvg": 60.95816836151393,
+                    "priceMin": 55.2,
+                    "priceMax": 65.25,
+                    "totalCost": 5065319.0
+                },
+                {
+                    "year": 2023,
+                    "utilityId": 1,
+                    "utilityName": "Natural Gas",
+                    "total": 92082.0,
+                    "priceAvg": 47.8682636128668,
+                    "priceMin": 34.55,
+                    "priceMax": 64.25,
+                    "totalCost": 4407805.45
+                },
+                {
+                    "year": 2021,
+                    "utilityId": 2,
+                    "utilityName": "Electricity",
+                    "total": 158700.0,
+                    "priceAvg": 143.21023629489602,
+                    "priceMin": 120.67,
+                    "priceMax": 167.45,
+                    "totalCost": 2.27274645E7
+                },
+                {
+                    "year": 2022,
+                    "utilityId": 2,
+                    "utilityName": "Electricity",
+                    "total": 174510.0,
+                    "priceAvg": 176.48071027448285,
+                    "priceMin": 169.3,
+                    "priceMax": 182.9,
+                    "totalCost": 3.079764875E7
+                },
+                {
+                    "year": 2023,
+                    "utilityId": 2,
+                    "utilityName": "Electricity",
+                    "total": 193382.0,
+                    "priceAvg": 173.35276732063994,
+                    "priceMin": 160.85,
+                    "priceMax": 180.55,
+                    "totalCost": 3.3523304849999994E7
+                }
+            ]
         },
         {
-            "name": "Company Epsilon",
-            "description": "A growing software development firm",
-            "latitude": 53.2194,
-            "longitude": 6.5665
+            "companyId": 2,
+            "companyName": "Company Beta",
+            "data": [
+                {
+                    "year": 2021,
+                    "utilityId": 1,
+                    "utilityName": "Natural Gas",
+                    "total": 45000.0,
+                    "priceAvg": 50.35751402635896,
+                    "priceMin": 42.75,
+                    "priceMax": 57.5,
+                    "totalCost": 2276781.7
+                },
+                {
+                    "year": 2022,
+                    "utilityId": 1,
+                    "utilityName": "Natural Gas",
+                    "total": 50000.0,
+                    "priceAvg": 60.95816836151393,
+                    "priceMin": 55.2,
+                    "priceMax": 65.25,
+                    "totalCost": 3040000.0
+                },
+                {
+                    "year": 2023,
+                    "utilityId": 1,
+                    "utilityName": "Natural Gas",
+                    "total": 55000.0,
+                    "priceAvg": 47.8682636128668,
+                    "priceMin": 34.55,
+                    "priceMax": 64.25,
+                    "totalCost": 2637754.98
+                },
+                {
+                    "year": 2021,
+                    "utilityId": 2,
+                    "utilityName": "Electricity",
+                    "total": 100000.0,
+                    "priceAvg": 143.21023629489602,
+                    "priceMin": 120.67,
+                    "priceMax": 167.45,
+                    "totalCost": 1.4321023629489602E7
+                },
+                {
+                    "year": 2022,
+                    "utilityId": 2,
+                    "utilityName": "Electricity",
+                    "total": 110000.0,
+                    "priceAvg": 176.48071027448285,
+                    "priceMin": 169.3,
+                    "priceMax": 182.9,
+                    "totalCost": 1.9412888121943115E7
+                },
+                {
+                    "year": 2023,
+                    "utilityId": 2,
+                    "utilityName": "Electricity",
+                    "total": 120000.0,
+                    "priceAvg": 173.35276732063994,
+                    "priceMin": 160.85,
+                    "priceMax": 180.55,
+                    "totalCost": 2.0804332076876793E7
+                }
+            ]
+        },
+        {
+            "companyId": 3,
+            "companyName": "Company Gamma",
+            "data": [
+                {
+                    "year": 2021,
+                    "utilityId": 1,
+                    "utilityName": "Natural Gas",
+                    "total": 100000.0,
+                    "priceAvg": 50.35751402635896,
+                    "priceMin": 42.75,
+                    "priceMax": 57.5,
+                    "totalCost": 5057500.0
+                },
+                {
+                    "year": 2022,
+                    "utilityId": 1,
+                    "utilityName": "Natural Gas",
+                    "total": 110000.0,
+                    "priceAvg": 60.95816836151393,
+                    "priceMin": 55.2,
+                    "priceMax": 65.25,
+                    "totalCost": 6715398.5
+                },
+                {
+                    "year": 2023,
+                    "utilityId": 1,
+                    "utilityName": "Natural Gas",
+                    "total": 120000.0,
+                    "priceAvg": 47.8682636128668,
+                    "priceMin": 34.55,
+                    "priceMax": 64.25,
+                    "totalCost": 5784171.0
+                },
+                {
+                    "year": 2021,
+                    "utilityId": 2,
+                    "utilityName": "Electricity",
+                    "total": 200000.0,
+                    "priceAvg": 143.21023629489602,
+                    "priceMin": 120.67,
+                    "priceMax": 167.45,
+                    "totalCost": 2.864204725E7
+                },
+                {
+                    "year": 2022,
+                    "utilityId": 2,
+                    "utilityName": "Electricity",
+                    "total": 220000.0,
+                    "priceAvg": 176.48071027448285,
+                    "priceMin": 169.3,
+                    "priceMax": 182.9,
+                    "totalCost": 3.882015596E7
+                },
+                {
+                    "year": 2023,
+                    "utilityId": 2,
+                    "utilityName": "Electricity",
+                    "total": 240000.0,
+                    "priceAvg": 173.35276732063994,
+                    "priceMin": 160.85,
+                    "priceMax": 180.55,
+                    "totalCost": 4.160866415E7
+                }
+            ]
+        },
+        {
+            "companyId": 4,
+            "companyName": "Company Delta",
+            "data": [
+                {
+                    "year": 2021,
+                    "utilityId": 1,
+                    "utilityName": "Natural Gas",
+                    "total": 150000.0,
+                    "priceAvg": 50.35751402635896,
+                    "priceMin": 42.75,
+                    "priceMax": 57.5,
+                    "totalCost": 7583250.0
+                },
+                {
+                    "year": 2022,
+                    "utilityId": 1,
+                    "utilityName": "Natural Gas",
+                    "total": 165000.0,
+                    "priceAvg": 60.95816836151393,
+                    "priceMin": 55.2,
+                    "priceMax": 65.25,
+                    "totalCost": 10100000.0
+                },
+                {
+                    "year": 2023,
+                    "utilityId": 1,
+                    "utilityName": "Natural Gas",
+                    "total": 180000.0,
+                    "priceAvg": 47.8682636128668,
+                    "priceMin": 34.55,
+                    "priceMax": 64.25,
+                    "totalCost": 8675550.0
+                },
+                {
+                    "year": 2021,
+                    "utilityId": 2,
+                    "utilityName": "Electricity",
+                    "total": 300000.0,
+                    "priceAvg": 143.21023629489602,
+                    "priceMin": 120.67,
+                    "priceMax": 167.45,
+                    "totalCost": 4.296709177E7
+                },
+                {
+                    "year": 2022,
+                    "utilityId": 2,
+                    "utilityName": "Electricity",
+                    "total": 330000.0,
+                    "priceAvg": 176.48071027448285,
+                    "priceMin": 169.3,
+                    "priceMax": 182.9,
+                    "totalCost": 5.882860256E7
+                },
+                {
+                    "year": 2023,
+                    "utilityId": 2,
+                    "utilityName": "Electricity",
+                    "total": 360000.0,
+                    "priceAvg": 173.35276732063994,
+                    "priceMin": 160.85,
+                    "priceMax": 180.55,
+                    "totalCost": 6.321732831E7
+                }
+            ]
         }
     ]
 }

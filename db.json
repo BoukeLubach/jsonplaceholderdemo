@@ -10,5 +10,18 @@
             "title": "fstitle2",
             "description": "fsdescription2"
         }
-    ]
+    ], 
+
+    "projects": [
+        {
+            "id": 1,
+            "title": "projecttitle",
+            "description": "Pdescription"
+        },
+        {
+            "id": 2,
+            "title": "projecttitl2",
+            "description": "Pdescription"
+        }
+    ]	
 }
